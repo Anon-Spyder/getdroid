@@ -15,17 +15,14 @@ Usage of GetDroid for attacking targets without prior mutual consent is illegal.
 apt-get install android-sdk apksigner -y
 ```
 ### Tested on Kali x86
-
+## Please, don't upload to VirusTotal, donate! Use https://antiscan.me
 ### Usage:
 ```
 git clone https://github.com/thelinuxchoice/getdroid
 cd getdroid
 bash getdroid.sh
 ```
-
-
-
-### Donate!
-Support the authors:
-
-<noscript><a href="https://liberapay.com/thelinuxchoice/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
+### Support the authors, Donate!
+CoffeeCoin:
+### Paypal:
+https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CLKRT5QXXFJY4&source=url
