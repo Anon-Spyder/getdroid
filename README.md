@@ -13,7 +13,6 @@ Usage of GetDroid for attacking targets without prior mutual consent is illegal.
 ### Requirements (Android-SDK, APKSinger) :
 ```
 apt-get install android-sdk apksigner -y
-
 ```
 ### Tested on Kali x86
 
