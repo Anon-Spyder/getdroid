@@ -266,6 +266,7 @@ compile() {
 printf "\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Compiling... \e[0m\n"
 aapt package -f -m -J src/ -M AndroidManifest.xml -S res/ -I tools/android-sdk/platforms/android-19/android.jar
 javac -d obj/ -classpath src/ -bootclasspath tools/android-sdk/platforms/android-19/android.jar src/com/example/reversedroid/*.java -source 1.7 -target 1.7
+chmod +x tools/dx
 tools/dx --dex --output=bin/classes.dex obj/
 aapt package -f -m -F bin/$payload_name.apk -M AndroidManifest.xml -S res/ -I tools/android-sdk/platforms/android-19/android.jar
 cp bin/classes.dex .
